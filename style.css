@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif; /* Base font */
+    background-color: #e0e8f0; /* Light blue background */
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  
+  .container {
+    width: 400px; /* Adjust width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* White background for content area */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .operation-selection {
+    margin-bottom: 15px;
+  }
+  
+  .operation-selection p {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  #quiz {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .button-panel {
+    display: flex;
+    justify-content: space-between; /* Buttons evenly spaced */
+  }
+  
+  .button-panel button {
+    padding: 10px 15px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #3498db; /* Light blue button color */
+    color: #fff; /* White text color */
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button-panel button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+
+  .button-panel button,
+  #quiz button {
+      padding: 10px 15px;
+      border: none;
+      margin: 5px;
+      cursor: pointer;
+      border-radius: 3px;
+      background-color: #3498db; /* Light blue button color */
+      color: #fff; /* White text color */
+      transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button-panel button:hover,
+  #quiz button:hover {
+      background-color: #2980b9; /* Darker blue on hover */
+  }
+
+  
